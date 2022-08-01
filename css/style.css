@@ -853,6 +853,17 @@ body.popup-show::after {
 [class*=-ibg_contain] img {
   object-fit: contain;
 }
+.header{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.page{
+    margin-top: 13.7rem;
+}
 
 .header__row {
   display: flex;
